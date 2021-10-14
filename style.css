@@ -1,0 +1,21 @@
+.container {
+    margin: 2px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    border: 1px dotted red;
+}
+
+.container img {
+    border-radius: 25%;
+    height: 50px;
+    width: auto;
+}
+
+.nav {
+    width: 30%;
+}
+
+.main {
+    width: 60%;
+}
