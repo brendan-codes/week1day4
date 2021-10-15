@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.main {
+    height: 700px;
+    /* width: 70%; */
+}
+
+.nav {
+    color: white;
+    background-color: black;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: sans-serif;
+}
+
+.logo {
+    width: 40%;
+}
+
+.logo a {
+    color: white;
+    text-decoration: none;
+}
+
+/* nth child selector allows us to select child elements by index */
+.logo a:nth-child(3) {
+    font-weight: bolder;
+}
+
+
+.columns {
+    width: 80%;
+}
+
+.col-1 {
+    flex: 1;
+}
+
+.col-2 {
+    flex: 2;
+}
+
+.col-3 {
+    flex: 3;
+}
+
+.profile {
+    padding: 2%;
+    /* height: 100%; */
+    /* background-color: orange; */
+}
+
+.connections {
+    padding: 2%;
+}
+
+.sign-out {
+    border: 0px;
+    color: white;
+    background-color:#16A2B8;
+    padding: 10px 20px 10px 20px;
+}
+
+.info {
+    border: 5px solid #16A2B8;
+    margin-bottom: 50px;
+    /* padding: 50px; */
+}
+
+.info img {
+    border-radius: 50%;
+}
+
+.info-holder {
+    padding: 3%;
+}
+
+.header {
+    background-color: #16A2B8;
+    height: 100px;
+    /* overflow: hidden; */
+    margin-bottom: -75px;
+}
